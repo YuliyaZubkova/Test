@@ -5,7 +5,7 @@
 */
 
 Console.WriteLine("Введите число");
-string numberStr = Console.ReadLine();
+string numberStr = Console.ReadLine() ?? String.Empty;
 int number = Convert.ToInt32(numberStr);
 
 int result = number * number;
